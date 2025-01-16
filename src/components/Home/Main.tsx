@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import img1 from "../../images/hotel-receptionist-giving-key-to-guest.png";
 import img2 from "../../images/stella-he-cC-OMDTczoA-unsplash.jpg";
 import img3 from "../../images/nik-lanus-YMOHw3F1Hdk-unsplash.jpg";
-import img4 from "../../images/volodymyr-hryshchenko-V5vqWC9gyEU-unsplash.jpg";
+
 import { HoverImg } from "../HoverImg";
 import { RekProcessStep } from "../RekProcessStep";
 

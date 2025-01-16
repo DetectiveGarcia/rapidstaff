@@ -1,4 +1,3 @@
-import React from "react";
 import img1 from "../../images/tim-marshall-cAtzHUz7Z8g-unsplash.jpg";
 
 const Header = () => {
