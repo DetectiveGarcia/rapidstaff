@@ -1,5 +1,4 @@
-import { useState } from "react";
-import { motion } from "framer-motion";
+
 import img1 from "../../images/hotel-receptionist-giving-key-to-guest.png";
 import img2 from "../../images/stella-he-cC-OMDTczoA-unsplash.jpg";
 import img3 from "../../images/nik-lanus-YMOHw3F1Hdk-unsplash.jpg";
