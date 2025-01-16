@@ -1,0 +1,36 @@
+#root {
+
+}
+
+.headerParagraphAnimation{
+
+    border-right: 2px solid white;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 10s steps(21) 1s both infinite,
+      cursor 0.4s step-end infinite alternate;
+;
+}
+
+@keyframes typing {
+    0% {
+      width: 0;
+    }
+  
+    40% {
+      width: 100%;
+    }
+  
+    /* Typing completes at 90% of the animation */
+    100% {
+      width: 100%;
+    }
+  
+    /* Hold at 100% width for the remaining time */
+  }
+  
+  @keyframes cursor {
+    50% {
+      border-color: transparent;
+    }
+  }
