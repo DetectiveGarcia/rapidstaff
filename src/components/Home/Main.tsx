@@ -1,4 +1,4 @@
-
+import { motion } from "framer-motion";
 import img1 from "../../images/hotel-receptionist-giving-key-to-guest.png";
 import img2 from "../../images/stella-he-cC-OMDTczoA-unsplash.jpg";
 import img3 from "../../images/nik-lanus-YMOHw3F1Hdk-unsplash.jpg";
@@ -20,7 +20,13 @@ export const Main = () => {
           </div>
         </div>
         <div className="flex flex-col justify-center items-center ">
-          <button>Ansök idag!</button>
+          <motion.button className="rounded-lg bg-yellow-400 h-10 w-32"
+            whileHover={{
+              scale: 1.1,
+              transition: { duration: 0.5 },
+            }}
+            whileTap={{ scale: 0.9 }}
+          >Ansök idag!</motion.button>
         </div>
         <p >
           Vi på Rapidstaff värdesätter kontinuerlig utveckling och erbjuder

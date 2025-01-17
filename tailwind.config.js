@@ -2,7 +2,11 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontSize: {
+        'dynamic': 'clamp(2rem, 2rem + 1vw, 4.5rem)', // Add your custom font size
+      },
+    },
   },
   plugins: [],
 };

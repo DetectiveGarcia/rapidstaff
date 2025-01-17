@@ -37,7 +37,7 @@ const ContactModal = ({
         >
           <button
             onClick={() => handleCloseModal()}
-            className="py-2 px-8 self-end font-bold hover:bg-yellow-500 border rounded border-yellow-500 text-stone-50 hover:text-black hover:border-white"
+            className="py-2 px-8 self-end font-bold hover:bg-yellow-500 border rounded-lg border-yellow-500 text-stone-50 hover:text-black hover:border-white"
           >
             Stäng
           </button>
